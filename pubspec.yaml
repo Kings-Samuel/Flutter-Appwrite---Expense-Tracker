@@ -1,0 +1,32 @@
+name: flutterappwrite
+description: A new Flutter project to learn appwrite
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  appwrite: ^4.0.2
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  dropdown_search: ^3.0.1
+  flutter:
+    sdk: flutter
+  google_fonts: ^2.3.2
+  image_picker: ^0.8.5
+  in_date_utils: ^1.0.3
+  intl: ^0.17.0
+  provider: ^6.0.2
+  url_strategy: ^0.2.0
+  wakelock: ^0.6.1+2
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
